@@ -1,0 +1,115 @@
+
+*{
+    style-sizing: border-box;
+
+}
+       .img-small-circle {
+           border-radius: 50%;  /* This will make the image circular */
+        border: 5px solid #437E1B;  /* This will create a 5px solid black border */
+        object-fit: cover;  /* This will make sure your image covers the full width and height */
+        width: 120px;  /* Adjust width as needed */
+        height: 120px;  /* Adjust height as needed */
+        position: relative;  /* Set position to relative */
+        top: -20px; 
+        margin: 0 auto; 
+    }
+    .img-small-circle:hover {
+    transform: scale(1.2);
+}
+    .custom-link {
+    text-decoration: none;
+    color:  #437E1B;
+}
+
+.custom-link:hover {
+    color: darkblue; 
+}
+.style {
+    width: auto;
+    height: 40px;
+    background-color: #437E1B;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+        body{
+            text-align: center;
+            background-image: url("images/bg.jpg");
+            background-repeat: repeat;
+            background-size: cover;
+        }
+
+        h1{
+            color: #437E1B;
+        }
+        h2{
+            position: relative;
+            top: -30px;
+        }
+        h3{
+            color: #ffffff;
+            margin-right: 1000px;
+
+        }
+        h3,h4 {
+        text-align: left; /* Align all h3 elements to the left */
+        margin-top: 10px;
+}
+        h4{
+            margin-right: 960px;
+            top: 20px;
+        }
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table,thead{
+    background-color:#437E1B ;
+    color: white;
+}
+table,tbody{
+    background-color: white;
+    color: black;
+}
+h3.forTable{
+    text-align: center;
+}
+.style2 {
+    width: auto;
+    height: 40px;
+    background-color: #437E1B;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+.box2 h3{
+    
+}
+.style2 {
+    width: auto;
+    height: 40px;
+    background-color: #437E1B;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+ul{
+    text-align:left ;
+}
+.style3 {
+    width: auto;
+    height: 40px;
+    background-color: #437E1B;
+    text-align: center;
+    position: relative;
+    
+}
+
+.style4 {
+    width: auto;
+    height: 40px;
+    background-color: #437E1B;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
